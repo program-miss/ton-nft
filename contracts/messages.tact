@@ -13,3 +13,10 @@ struct ItemData {
     item_index: Int;
     individual_content: Cell;
 }
+struct CollectionMetaData {
+    image: String;
+    name: String;
+    description: String;
+    // массивов в tact нет, есть cell
+    // social_links: String[];
+}
